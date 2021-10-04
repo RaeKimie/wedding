@@ -11,6 +11,7 @@ import { MapComponent } from './map/map.component';
 import { BankComponent } from './bank/bank.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NavComponent } from './nav/nav.component';
     MapComponent,
     BankComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    ClickToCallComponent
   ],
   imports: [
     BrowserModule
