@@ -1,8 +1,21 @@
 <div class="banner">
     <p>소중한 당신을 초대합니다</p>
 </div>
-<div>
-    <app-click-to-call></app-click-to-call>
 
-
+<div class="contacts">
+    <div class="bride-groom">
+        <div *ngFor="let person of mainContacts">
+            <div class="name">
+                <p>{{person.name}}</p>
+            </div>
+            <div class="buttons">
+                <app-click-to-call
+                [tel]="person.tel"
+                [iconColor]="person.iconColor"
+                ></app-click-to-call>
+            </div>
+        </div>
+    </div>
+    <div class="parents">
+    </div>
 </div>
