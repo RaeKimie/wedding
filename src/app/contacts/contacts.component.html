@@ -3,16 +3,18 @@
 </div>
 
 <div class="contacts">
-    <div class="bride-groom">
+    <div class="main-contacts">
         <div *ngFor="let person of mainContacts">
-            <div class="name">
-                <p>{{person.name}}</p>
-            </div>
-            <div class="buttons">
-                <app-click-to-call
-                [tel]="person.tel"
-                [iconColor]="person.iconColor"
-                ></app-click-to-call>
+            <div class="wrapper">
+                <div class="name">
+                    <p>{{person.name}}</p>
+                </div>
+                <div class="buttons">
+                    <app-click-to-call
+                    [tel]="person.tel"
+                    [iconColor]="person.iconColor"
+                    ></app-click-to-call>
+                </div>
             </div>
         </div>
     </div>

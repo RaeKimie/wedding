@@ -15,4 +15,23 @@
     border: 1px solid red;
     margin: 0 15% 0 15%;
     text-align: center;
+
+    .main-contacts {
+        .wrapper {
+            border: 1px solid blue;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .name {
+                font-size: 3vw;
+                padding-right: 3%;
+            }
+            .buttons {
+
+            }
+        }
+    }
 }
