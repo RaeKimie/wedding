@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./click-to-call.component.scss']
 })
 export class ClickToCallComponent implements OnInit {
+  public name = '김황호';
+  public phoneNumber = '01089080062';
 
   constructor() { }
 
