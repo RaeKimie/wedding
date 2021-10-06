@@ -23,10 +23,10 @@
 </div>
 <div class="parents">
     <div class="left-wrapper">
-        <p>신랑측</p>
+        <p class="grey-font">신랑측</p>
         <div *ngFor="let contact of groomContacts">
             <div class="name">
-                <p>{{contact.name}}</p>
+                <p>{{contact.role}} <span class="big-font">{{contact.name}}</span></p>
             </div>
             <div class="buttons">
                 <app-click-to-call
@@ -37,10 +37,10 @@
         </div>
     </div>
     <div class="right-wrapper">
-        <p>신부측</p>
+        <p class="grey-font">신부측</p>
         <div *ngFor="let contact of brideContacts">
             <div class="name">
-                <p>{{contact.name}}</p>
+                <p>{{contact.role}} <span class="big-font">{{contact.name}}</span></p>
             </div>
             <div class="buttons">
                 <app-click-to-call

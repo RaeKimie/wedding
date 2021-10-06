@@ -1,8 +1,12 @@
 .click-to-call {
     //probably need to change to flex box
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
     a {
         img {
-            padding-left: 10px;
+            // padding-left: 10px;
             height: 5vw;
         }
     }
