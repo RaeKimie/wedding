@@ -11,14 +11,13 @@
     font-size: 3vw;
 }
 
-.contacts {
-    border: 1px solid red;
-    margin: 0 15% 0 15%;
-    text-align: center;
 
     .main-contacts {
+        // border: 1px solid red;
+        margin: 5% 15% 5% 15%;
+        text-align: center;
         .wrapper {
-            border: 1px solid blue;
+            // border: 1px solid blue;
 
             display: flex;
             flex-direction: row;
@@ -34,4 +33,25 @@
             }
         }
     }
-}
+
+    .contacts-banner {
+        margin: 5% 0 5% 0;
+        width: 100%;
+        padding: 2%;
+        background-color: lightgrey;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .parents {
+        // border: 1px solid red;
+        margin: 0 15% 0 15%;
+        text-align: center;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        
+    }

@@ -2,22 +2,52 @@
     <p>소중한 당신을 초대합니다</p>
 </div>
 
-<div class="contacts">
-    <div class="main-contacts">
-        <div *ngFor="let person of mainContacts">
-            <div class="wrapper">
-                <div class="name">
-                    <p>{{person.name}}</p>
-                </div>
-                <div class="buttons">
-                    <app-click-to-call
-                    [tel]="person.tel"
-                    [iconColor]="person.iconColor"
-                    ></app-click-to-call>
-                </div>
+<div class="main-contacts">
+    <div *ngFor="let person of mainContacts">
+        <div class="wrapper">
+            <div class="name">
+                <p>{{person.name}}</p>
+            </div>
+            <div class="buttons">
+                <app-click-to-call
+                [tel]="person.tel"
+                [iconColor]="person.iconColor"
+                ></app-click-to-call>
             </div>
         </div>
     </div>
-    <div class="parents">
+</div>
+
+<div class="contacts-banner">
+    <p>혼주에게 연락하기</p>
+</div>
+<div class="parents">
+    <div class="left-wrapper">
+        <p>신랑측</p>
+        <div *ngFor="let contact of groomContacts">
+            <div class="name">
+                <p>{{contact.name}}</p>
+            </div>
+            <div class="buttons">
+                <app-click-to-call
+                [tel]="contact.tel"
+                [iconColor]="contact.iconColor"
+                ></app-click-to-call>
+            </div>
+        </div>
+    </div>
+    <div class="right-wrapper">
+        <p>신부측</p>
+        <div *ngFor="let contact of brideContacts">
+            <div class="name">
+                <p>{{contact.name}}</p>
+            </div>
+            <div class="buttons">
+                <app-click-to-call
+                [tel]="contact.tel"
+                [iconColor]="contact.iconColor"
+                ></app-click-to-call>
+            </div>
+        </div>
     </div>
 </div>
