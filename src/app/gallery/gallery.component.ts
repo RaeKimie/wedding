@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
   public photos = Array.from(Array(31).keys());
+  public selectedImg: number = 0;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public selectImg(img: number) {
+    console.log(img,' yoyo')
+    this.selectedImg = img;
   }
 
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-expanded-photo',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expanded-photo.component.scss']
 })
 export class ExpandedPhotoComponent implements OnInit {
+
+  @Input()
+  public img!: number;
 
   constructor() { }
 

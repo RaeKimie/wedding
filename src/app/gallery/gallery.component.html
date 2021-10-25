@@ -1,10 +1,10 @@
 <div class="gallery">
 
-    <app-expanded-photo></app-expanded-photo>
+    <app-expanded-photo [img] = "selectedImg"></app-expanded-photo>
 
     <div class="photo-list">
         <div class="container" *ngFor="let img of photos">
-            <img src="../../assets/gallery/{{img}}.jpg">
+            <img (click)="selectImg(img)" src="../../assets/gallery/{{img}}.jpg">
         </div>
     </div>
     <p>이미지를 클릭하시면 확대보기가 가능합니다.</p>
