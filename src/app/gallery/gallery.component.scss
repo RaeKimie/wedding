@@ -1,16 +1,22 @@
-.gallery {
-    border: 0.5px solid lightcoral;
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
 
-    img {
-        display: inline-block;
-        height: 35vw;
-        margin: 2vw;
+.gallery{
+    text-align: center;
+    font-size: 2vw;
+
+    .photo-list {
+        border: 0.5px solid lightcoral;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        
+        img {
+            display: inline-block;
+            height: 35vw;
+            margin: 2vw;
+        }
     }
-}
-
-.gallery::-webkit-scrollbar {
-    display: none;
+    
+    .photo-list::-webkit-scrollbar {
+        display: none;
+    }
 }
