@@ -12,6 +12,7 @@ import { BankComponent } from './bank/bank.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.component';
+import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.com
     BankComponent,
     FooterComponent,
     NavComponent,
-    ClickToCallComponent
+    ClickToCallComponent,
+    ExpandedPhotoComponent
   ],
   imports: [
     BrowserModule
