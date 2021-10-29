@@ -5,6 +5,18 @@
     // padding: 10% 0 10% 0;
     // border: 2px solid black;
 
+    .header {
+        margin: 20% 15% 20% 15%;
+        border-top: 1px solid #090303;
+        font-size: 3vw;
+        text-align: center;
+        letter-spacing: 2vw;
+        p {
+            margin-top: 5%;
+            margin-bottom: 15%
+        }
+    }
+
     .photo-list {
         // border: 0.5px solid lightcoral;
         background-color: rgb(230, 230, 230);
