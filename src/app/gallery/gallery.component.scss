@@ -6,14 +6,14 @@
     // border: 2px solid black;
 
     .header {
-        margin: 20% 15% 20% 15%;
+        margin: 20% 15% 5% 15%;
         border-top: 1px solid #090303;
         font-size: 3vw;
         text-align: center;
         letter-spacing: 2vw;
         p {
             margin-top: 5%;
-            margin-bottom: 15%
+            // margin-bottom: 15%
         }
     }
 
@@ -30,10 +30,6 @@
             margin: 2vw 2vw 2vw 0;
         }
     }
-    
-    // .photo-list::-webkit-scrollbar {
-    //     display: none;
-    // }
 
     /* width */
     .photo-list::-webkit-scrollbar {
