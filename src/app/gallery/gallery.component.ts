@@ -14,7 +14,6 @@ export class GalleryComponent implements OnInit {
   }
 
   public selectImg(img: number) {
-    console.log(img,' yoyo')
     this.selectedImg = img;
   }
 

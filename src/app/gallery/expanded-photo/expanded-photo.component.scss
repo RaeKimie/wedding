@@ -1,6 +1,19 @@
 .photo {
+    display: flex;
+
     padding-bottom: 10%;
+    flex-direction: row;
+
     img {
         width: 80%;
+    }
+    
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
     }
 }
