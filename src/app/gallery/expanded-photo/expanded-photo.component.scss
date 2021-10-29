@@ -1,14 +1,21 @@
 .photo {
     display: flex;
-
-    padding-bottom: 10%;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    justify-content: center;
+    // padding-bottom: 10%;
     flex-direction: row;
+
 
     img {
         width: 80%;
     }
     
     button {
+        padding: 2vw;
+        img {
+            width: 4vw;
+        }
         background-color: transparent;
         background-repeat: no-repeat;
         border: none;
