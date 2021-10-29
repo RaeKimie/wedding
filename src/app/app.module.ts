@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.component';
 import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.
     FooterComponent,
     NavComponent,
     ClickToCallComponent,
-    ExpandedPhotoComponent
+    ExpandedPhotoComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule
