@@ -19,14 +19,12 @@ export class ExpandedPhotoComponent implements OnInit {
 
   public moveLeft() {
     if (this.img > 0) {
-      console.log(this.img,' what is it')
       this.changeSelectImg.emit(this.img - 1);
     }
   }
 
   public moveRight() {
     if (this.img < 30) {
-      console.log(this.img,'show me')
       this.changeSelectImg.emit(this.img + 1);
     }
   }
