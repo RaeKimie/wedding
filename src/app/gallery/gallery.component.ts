@@ -16,5 +16,10 @@ export class GalleryComponent implements OnInit {
   public selectImg(img: number) {
     this.selectedImg = img;
   }
-
+  
+  public changeSelectImg(index: number) {
+    if (index !== this.selectedImg) {
+      this.selectedImg = index;
+    }
+  }
 }
