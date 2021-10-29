@@ -1,0 +1,19 @@
+.video {
+    .header {
+        margin: 20% 15% 0 15%;
+        border-top: 1px solid #090303;
+        font-size: 3vw;
+        text-align: center;
+        letter-spacing: 2vw;
+        p {
+            margin-top: 5%;
+            // margin-bottom: 15%
+        }
+    }
+
+    video {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
