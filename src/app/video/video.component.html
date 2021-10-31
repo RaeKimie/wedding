@@ -6,4 +6,16 @@
     <video poster="../../assets/video/thumbnail.png" controls>
         <source src="../../assets/video/video.mp4" type="video/mp4">
     </video>
+
+    <div class="vertical" *ngFor="let char of words">
+        <p>{{char}}</p>
+    </div>
+
+    <div class="horizontal-wrapper">
+        <div class="horizontal" *ngFor="let char of words2">
+            <p>{{char}}</p>
+        </div>
+    </div>
+
+
 </div>
