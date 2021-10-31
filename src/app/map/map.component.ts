@@ -8,6 +8,11 @@ declare var kakao: any;
 export class MapComponent implements OnInit {
   public map: any;
   public infowindow: any;
+  public location = {
+    name:'인천아시아드웨딩컨벤션',
+    tel: '032-765-6000',
+    address:'인천 서구 봉수대로 806'
+  }
 
   public places = [
     { name: '인천아시아드웨딩컨벤션', lat: 37.549165, lon: 126.667171 },
