@@ -1,5 +1,17 @@
 .wrapper {
     margin: 15px;
+
+    .header {
+        margin: 20% 15% 5% 15%;
+        border-top: 1px solid #090303;
+        font-size: 3vw;
+        text-align: center;
+        letter-spacing: 2vw;
+        p {
+            margin-top: 5%;
+            margin-bottom: 15%
+        }
+    }
     .map {
         height: 50vh;
         border: 1px solid #b8b8b8;
