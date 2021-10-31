@@ -19,7 +19,7 @@ export class MapComponent implements OnInit {
             setTimeout(() => {
               const options = {
                   center: new kakao.maps.LatLng(37.549165, 126.667171),
-                  level: 3
+                  level: 4
               };
   
               this.map = new kakao.maps.Map(document.getElementById('map'), options);
