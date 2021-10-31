@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  public words = ["01", "月", "08", "日"];
   constructor() { }
 
   ngOnInit(): void {

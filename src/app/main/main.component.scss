@@ -3,14 +3,19 @@
     padding: 30% 0 30% 0;
     margin: 0 15% 0 15%;
 
-    .date {
-        font-size: 4vw;
-        padding-left: 15px;
-        width: 4.5vw;
+    .vertical {
         border-left: 1px solid #090303;
+        padding-left: 15px;
+        font-size: 4vw;
+        // text-align: center;
         text-transform: uppercase;
-        word-break: break-all;
-        text-align: center;
+        // align-items: center;
+        justify-content:space-between;
+        display: flex;
+        flex-direction: column;
+        p {
+            margin: 0;
+        }
     }
 
     img {
