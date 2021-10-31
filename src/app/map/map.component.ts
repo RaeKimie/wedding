@@ -43,8 +43,8 @@ export class MapComponent implements OnInit {
   public addPlaces() {
     this.places.forEach(place => {
         const image = new kakao.maps.MarkerImage(
-            'assets/img/marker.png',
-            new kakao.maps.Size(64, 69),
+            '../../assets/icons/pin.png',
+            new kakao.maps.Size(44, 47),
             { offset: new kakao.maps.Point(27, 69) }
         );
 
