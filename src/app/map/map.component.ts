@@ -10,16 +10,15 @@ export class MapComponent implements OnInit {
   public infowindow: any;
 
   public places = [
-    { name: '공대2호관 쪽문나가는길', lat: 36.363775, lon: 127.346709 },
+    { name: '인천아시아드웨딩컨벤션', lat: 37.549165, lon: 126.667171 },
   ];
 
   constructor() { }
 
   ngOnInit(): void {
-            // 살짝 딜레이 줘야 화면에 맵에 쪽바로 그려진다.
             setTimeout(() => {
               const options = {
-                  center: new kakao.maps.LatLng(36.370546, 127.345966),
+                  center: new kakao.maps.LatLng(37.549165, 126.667171),
                   level: 3
               };
   
@@ -28,7 +27,7 @@ export class MapComponent implements OnInit {
               this.infowindow = new kakao.maps.InfoWindow({
                   map: this.map,
                   zIndex: 4,
-                  position: new kakao.maps.LatLng(36.370546, 127.345966),
+                  position: new kakao.maps.LatLng(37.549165, 126.667171),
                   removable: true
               });
   
