@@ -1,6 +1,8 @@
-.map {
-    width: 100vw;
-    height: 80vh;
-    border: 1px solid #b8b8b8;
-    background-size: cover;
+.wrapper {
+    margin: 15px;
+    .map {
+        height: 50vh;
+        border: 1px solid #b8b8b8;
+        background-size: cover;
+    }
 }
