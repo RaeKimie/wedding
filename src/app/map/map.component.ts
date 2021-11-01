@@ -16,6 +16,8 @@ export class MapComponent implements OnInit {
     lon:126.667171
   }
 
+  public details = [{name:'지하철', info:'인천지하철? 어떤출구 블라블라'},{name:'버스', info:'1,23,4,35'},{name:'주차', info:'어딘가에 주차장이 있음'} ]
+
   public places = [
     { name: '인천아시아드웨딩컨벤션', lat: 37.549165, lon: 126.667171 },
   ];
