@@ -1,7 +1,40 @@
-<p>bank works!</p>
 <div class="bank">
-    <div>
+    <div class="groom">
+        <div class="wrapper">
+            <div class="left-wrapper">
+                <p>신랑측 마음</p> 
+            </div>
+            <div class="right-wrapper">
+                <button (click)="displayGroomBankDetails()">
+                    계좌번호 {{groomExpanded? '숨기기' : '보기'}}
+                </button>
+            </div>
+        </div>
         
+        <ng-container *ngIf="groomExpanded">
+            <div *ngFor="let account of groomBankDetails"> 
+                <p>{{account.number}}, {{account.bank}}, {{account.name}}</p>
+            </div>
+        </ng-container>
+    </div>
+
+    <div class="bride">
+        <div class="wrapper">
+            <div class="left-wrapper">
+                <p>신부측 마음</p> 
+            </div>
+            <div class="right-wrapper">
+                <button (click)="displayBrideBankDetails()">
+                    계좌번호 {{brideExpanded? '숨기기' : '보기'}}
+                </button>
+            </div>
+        </div>
+        
+        <ng-container *ngIf="brideExpanded">
+            <div *ngFor="let account of brideBankDetails"> 
+                <p>{{account.number}}, {{account.bank}}, {{account.name}}</p>
+            </div>
+        </ng-container>
     </div>
 
 </div>
