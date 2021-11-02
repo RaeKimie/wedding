@@ -9,6 +9,9 @@
             justify-content: center;
 
             .left-wrapper {
+                p {
+                    font-size: 3vw;
+                }
 
             }
             .right-wrapper {
@@ -20,7 +23,7 @@
                     border: none;
                     border-radius: 6rem;
                     text-decoration: none;
-                    font-size: 4vw;
+                    font-size: 3vw;
                     cursor: pointer;
                     color: white;
                     white-space: nowrap;
@@ -43,7 +46,9 @@
             justify-content: center;
 
             .left-wrapper {
-
+                p {
+                    font-size: 3vw;
+                }
             }
             .right-wrapper {
                 margin-left: 5%;
@@ -54,7 +59,7 @@
                     border: none;
                     border-radius: 6rem;
                     text-decoration: none;
-                    font-size: 4vw;
+                    font-size: 3vw;
                     cursor: pointer;
                     color: white;
                     white-space: nowrap;
