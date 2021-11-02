@@ -47,10 +47,14 @@
         background-size: cover;
     }
 
-    .navigation {
-        // img {
-            height: 20vh;
-        // }
+    a {
+        text-decoration: none;
+        .navigation {
+            background-color: #cacaca;
+            padding: 5%;
+            text-align: center;
+            color: white;
+        }
     }
 
     .details-wrapper{
