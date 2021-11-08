@@ -12,20 +12,22 @@
         </div>
         
         <ng-container *ngIf="groomExpanded">
-            <div class="account-details" *ngFor="let account of groomBankDetails"> 
-                <div class="left-wrap">
-                    <p>
-                        {{account.bank}}:
-                    </p>
-                    <p> 예금주:</p>
-                </div>
-                <div class="right-wrap">
-                    <p>
-                        {{account.number}}
-                    </p>
-                    <p>
-                        {{account.name}}
-                    </p>
+            <div class="account-wrapper">
+                <div class="account-details" *ngFor="let account of groomBankDetails"> 
+                    <div class="left-wrap">
+                        <p>
+                            {{account.bank}}:
+                        </p>
+                        <p> 예금주:</p>
+                    </div>
+                    <div class="right-wrap">
+                        <p>
+                            {{account.number}}
+                        </p>
+                        <p>
+                            {{account.name}}
+                        </p>
+                    </div>
                 </div>
             </div>
         </ng-container>
@@ -44,20 +46,22 @@
         </div>
         
         <ng-container *ngIf="brideExpanded">
-            <div class="account-details" *ngFor="let account of brideBankDetails"> 
-                <div class="left-wrap">
-                    <p>
-                        {{account.bank}}:
-                    </p>
-                    <p> 예금주:</p>
-                </div>
-                <div class="right-wrap">
-                    <p>
-                        {{account.number}}
-                    </p>
-                    <p>
-                        {{account.name}}
-                    </p>
+            <div class="account-wrapper">
+                <div class="account-details" *ngFor="let account of brideBankDetails"> 
+                    <div class="left-wrap">
+                        <p>
+                            {{account.bank}}:
+                        </p>
+                        <p> 예금주:</p>
+                    </div>
+                    <div class="right-wrap">
+                        <p>
+                            {{account.number}}
+                        </p>
+                        <p>
+                            {{account.name}}
+                        </p>
+                    </div>
                 </div>
             </div>
         </ng-container>
