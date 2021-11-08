@@ -23,9 +23,12 @@
     </a>
 
     <div class="details-wrapper">
-        <div class="details" *ngFor="let info of details">
-            <p>{{info.name}}</p>
-            <p>{{info.info}}</p>
+        <div class="details" *ngFor="let detail of details">
+            <p>{{detail.name}}</p>
+
+            <div class="points" *ngFor="let point of detail.info">
+                <p >{{point}}</p>
+            </div>
         </div>
     </div>
 
