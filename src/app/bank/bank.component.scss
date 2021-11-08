@@ -38,7 +38,31 @@
         }
 
         .account-details {
-            border: 1px solid purple;
+            border: 1px solid #B8B8B8;
+            margin: 2%;
+            padding: 3%;
+            p {
+                margin: 0;
+            }
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .left-wrap {
+                padding-right: 20%;
+                p {
+                    font-size: 3.8vw;
+                }
+            }
+
+            .right-wrap {
+                // text-align: center;
+                justify-content: center;
+                flex-grow: 2;
+                p {
+                    font-size: 3.8vw;
+                }
+            }
         }
     }
 
@@ -74,6 +98,34 @@
 
                 }
 
+            }
+        }
+
+        .account-details {
+            border: 1px solid #B8B8B8;
+            margin: 2%;
+            padding: 3%;
+            p {
+                margin: 0;
+            }
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .left-wrap {
+                padding-right: 20%;
+                p {
+                    font-size: 3.8vw;
+                }
+            }
+
+            .right-wrap {
+                // text-align: center;
+                justify-content: center;
+                flex-grow: 2;
+                p {
+                    font-size: 3.8vw;
+                }
             }
         }
     }

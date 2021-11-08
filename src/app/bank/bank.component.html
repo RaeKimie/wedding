@@ -13,8 +13,20 @@
         
         <ng-container *ngIf="groomExpanded">
             <div class="account-details" *ngFor="let account of groomBankDetails"> 
-                <p>{{account.bank}}: {{account.number}}</p>
-                <p>예금주: {{account.name}}</p>
+                <div class="left-wrap">
+                    <p>
+                        {{account.bank}}:
+                    </p>
+                    <p> 예금주:</p>
+                </div>
+                <div class="right-wrap">
+                    <p>
+                        {{account.number}}
+                    </p>
+                    <p>
+                        {{account.name}}
+                    </p>
+                </div>
             </div>
         </ng-container>
     </div>
@@ -32,8 +44,21 @@
         </div>
         
         <ng-container *ngIf="brideExpanded">
-            <div *ngFor="let account of brideBankDetails"> 
-                <p>{{account.number}}, {{account.bank}}, {{account.name}}</p>
+            <div class="account-details" *ngFor="let account of brideBankDetails"> 
+                <div class="left-wrap">
+                    <p>
+                        {{account.bank}}:
+                    </p>
+                    <p> 예금주:</p>
+                </div>
+                <div class="right-wrap">
+                    <p>
+                        {{account.number}}
+                    </p>
+                    <p>
+                        {{account.name}}
+                    </p>
+                </div>
             </div>
         </ng-container>
     </div>
