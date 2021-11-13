@@ -14,6 +14,7 @@ import { NavComponent } from './nav/nav.component';
 import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.component';
 import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.component';
 import { VideoComponent } from './video/video.component';
+import { HeadingComponent } from './heading/heading.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { VideoComponent } from './video/video.component';
     NavComponent,
     ClickToCallComponent,
     ExpandedPhotoComponent,
-    VideoComponent
+    VideoComponent,
+    HeadingComponent
   ],
   imports: [
     BrowserModule
