@@ -15,6 +15,7 @@ import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.com
 import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.component';
 import { VideoComponent } from './video/video.component';
 import { HeadingComponent } from './heading/heading.component';
+import { ImageViewerComponent } from './gallery/image-viewer/image-viewer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HeadingComponent } from './heading/heading.component';
     ClickToCallComponent,
     ExpandedPhotoComponent,
     VideoComponent,
-    HeadingComponent
+    HeadingComponent,
+    ImageViewerComponent
   ],
   imports: [
     BrowserModule

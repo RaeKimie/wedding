@@ -9,6 +9,7 @@ export class ExpandedPhotoComponent implements OnInit {
 
   @Input()
   public img!: number;
+  public viewerOpen = false;
 
   @Output() changeSelectImg = new EventEmitter<number>();
 
