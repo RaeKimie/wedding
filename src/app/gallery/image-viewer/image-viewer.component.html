@@ -1,6 +1,6 @@
 <div *ngIf="open" class="viewer-container">
     <div class="viewer-content">
-      <a class="close-button" (close)="close.emit()">
+      <a class="close-button" (click)="closeFullScreen()">
           close
       </a>
       <img class="main-img" src="../../assets/gallery/{{imageURL}}.jpg"/>

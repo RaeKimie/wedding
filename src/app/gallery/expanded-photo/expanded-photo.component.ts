@@ -30,4 +30,9 @@ export class ExpandedPhotoComponent implements OnInit {
     }
   }
 
+  public closeViewer() {
+    console.log('here')
+    this.viewerOpen = false;
+  }
+
 }

@@ -18,4 +18,8 @@ export class ImageViewerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public closeFullScreen() {
+    this.close.emit(false);
+  }
+
 }
