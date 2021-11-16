@@ -30,9 +30,16 @@ export class ExpandedPhotoComponent implements OnInit {
     }
   }
 
+  public openViwer() {
+    this.viewerOpen = true;
+  }
+
   public closeViewer() {
-    console.log('here')
     this.viewerOpen = false;
+  }
+
+  public updatedSelectedImg(index: number) {
+    this.changeSelectImg.emit(index);
   }
 
 }

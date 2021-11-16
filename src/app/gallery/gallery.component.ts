@@ -18,6 +18,7 @@ export class GalleryComponent implements OnInit {
   }
   
   public changeSelectImg(index: number) {
+    console.log('yoyoyo here')
     if (index !== this.selectedImg) {
       this.selectedImg = index;
     }
