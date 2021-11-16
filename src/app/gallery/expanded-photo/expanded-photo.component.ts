@@ -1,4 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { FullScreenComponent } from '../full-screen/full-screen.component';
 
 @Component({
   selector: 'app-expanded-photo',
@@ -12,9 +14,13 @@ export class ExpandedPhotoComponent implements OnInit {
 
   @Output() changeSelectImg = new EventEmitter<number>();
 
-  constructor() { }
+  constructor(private dialogRef : MatDialog) { }
 
   ngOnInit(): void {
+  }
+
+  public openDialog() {
+    this.dialogRef.open(FullScreenComponent);
   }
 
   public moveLeft() {

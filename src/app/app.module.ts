@@ -15,6 +15,9 @@ import { ClickToCallComponent } from './sharedUI/click-to-call/click-to-call.com
 import { ExpandedPhotoComponent } from './gallery/expanded-photo/expanded-photo.component';
 import { VideoComponent } from './video/video.component';
 import { HeadingComponent } from './heading/heading.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FullScreenComponent } from './gallery/full-screen/full-screen.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +34,13 @@ import { HeadingComponent } from './heading/heading.component';
     ClickToCallComponent,
     ExpandedPhotoComponent,
     VideoComponent,
-    HeadingComponent
+    HeadingComponent,
+    FullScreenComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatDialogModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
