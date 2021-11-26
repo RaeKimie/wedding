@@ -1,27 +1,38 @@
-# Wedding
+# Wedding Invitation App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+This application is created for my brother's wedding.
 
-## Development server
+This Web app is specifically designed for mobile view.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* URL : https://hwangho-aram-wedding.netlify.app/
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This app includes the following functionalities.
 
-## Build
+* Link preview : when the link is shared, it displays preview image and description of the page.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Responsive styling : depending on the screen size it changes size of the image and text.
 
-## Running unit tests
+* Custom gallery : Created a custom gallery without using any existing css framework/ library.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  *user can*
 
-## Running end-to-end tests
+  * *scroll the list of images*
+  * *select and move images by clicking arrow buttons*
+  * *expand an image so that user can see in full screen*
+  * *close the expanded image, the main image will keep the state*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Click to call : Created buttons which will open up the dial & text on mobile
 
-## Further help
+* Map : Using [Kakao api key](https://apis.map.kakao.com/) display the wedding location. Used Kakao as it is one of the most popular platforms in South Korea.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  *user can*
+
+  * *zoom in / out map*
+  * *see the location name above the pin*
+  * *click "find a route on a map" button which will open up kakao map to find a route to the location*
+
+* Toggle details button: Created toggle button which displays the details of Bride and Groom. The copy on the button changes depending on the state of the details box.
+
+* Social widget: Using [AddThis](https://www.addthis.com/) added social widget buttons on footer so that user can share link on their social media and messengers.
+
