@@ -2,7 +2,7 @@
 
 This application is created for my brother's wedding.
 
-This Web app is specifically designed for mobile view.
+*Note: This site is specifically designed for mobile view.*
 
 * URL : https://hwangho-aram-wedding.netlify.app/
 
